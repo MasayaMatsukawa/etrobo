@@ -13,7 +13,7 @@ https://azure.microsoft.com/ja-jp/products/visual-studio-code/
 
 Visual Studio Codeのインストールが終わったら, シミュレータと開発環境のインストールを行います. 
 
-ターミナルでルートディレクトリに移動し, 以下のコマンドを入力してください. 
+ターミナルでユーザのルートディレクトリに移動し, 以下のコマンドを入力してください. 
 
 
 ```
