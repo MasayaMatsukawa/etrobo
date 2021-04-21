@@ -13,14 +13,14 @@ https://azure.microsoft.com/ja-jp/products/visual-studio-code/
 
 Visual Studio Codeのインストールが終わったら, シミュレータと開発環境のインストールを行います. 
 
-ターミナルでユーザのルートディレクトリに移動し, 以下のコマンドを入力してください. 
+ターミナルでユーザの自分のアカウントのディレクトリに移動し, 以下のコマンドを入力してください. 
 
 
 ```
 echo 'name=startetrobo_mac.command; if [ ! -f $name ]; then curl -O https://raw.githubusercontent.com/ETrobocon/etrobo/master/scripts/$name; chmod +x ~/$name; fi; ~/$name' > "Start ETrobo.command"; chmod +x "Start ETrobo.command"
 ```
 
-コマンドを入力すると, ルートディレクトリ内に`Start ETrobo.command`が作成されるのでダブルクリックしてください.　自動的にインストールが開始されます.
+コマンドを入力すると, ユーザのディレクトリ内に`Start ETrobo.command`が作成されるのでダブルクリックしてください.　自動的にインストールが開始されます.
 
 インストールは1時間ほどかかりますが, 途中で`Password:`と入力を求められることがあります. その際はMacのパスワードを入力してください.ただし, `cybozu`の`UserName`と`Password`の組を求められた際には, ETロボコンの参加者専用ページのユーザ名とパスワードを入力します. インストールする際にはまだ登録していないと思うので, 何も入力せずにエンターを押してください.
 
